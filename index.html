@@ -16,19 +16,31 @@
 <body>
   <main>
     <article>
-      We're coming soon
-
-      Hello fellow shoppers! We're currently building our new fashion store. 
-      Add your email below to stay up-to-date with announcements and our launch deals.
-    
-      Email Address
+      <div class="logo"><img src="./images/logo.svg" alt=""></div>
+      <h1>
+        <span class="">We're</span> coming soon
+      </h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form>
+        <div>
+          <input type="email" name="email" id="email" placeholder="Email Address" required>
+          <label for="email">
+            <img src="./images/icon-error.svg" alt="">
+          </label>
+          <button type="submit"><img src="./images/icon-arrow.svg" alt=""></button>
+        </div>
+        <p class="error">Please provide a valid email</p>
+      </form>
+      
     </article>
     <article>
       <picture>
-        <source srcset="./images/hero-desktop.jpg" media="min-width:768px">
-        <!-- <source srcset="./images/hero-desktop.jpg" media="max-width:1440px"> -->
-        <!-- <source srcset="./images/hero-mobile.jpg" media="max-width:375px"> -->
-         <img src="./images/hero-mobile.jpg" alt="">
+        <source srcset="./images/hero-desktop.jpg" media="(min-width:768px)">
+        <img src="./images/hero-mobile.jpg" alt="">
+        <!-- <source srcset="./images/hero-desktop.jpg" media="(max-width:1440px)"> -->
+        <!-- <source srcset="./images/hero-mobile.jpg" media="(max-width:375px)"> -->
       </picture>
     </article>
   </main> 

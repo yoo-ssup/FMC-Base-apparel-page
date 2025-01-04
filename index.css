@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -16,4 +17,10 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 375px) {
+  body {
+    background: url('./images/bg-pattern-desktop.svg') no-repeat center/cover;
+  }
 }
