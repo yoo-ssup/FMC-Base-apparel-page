@@ -97,6 +97,7 @@ form label {
   top: 32%;
   transform: translateY(32%);
   right: 4.5rem;
+  display: none;
 }
 
 .error {
@@ -104,6 +105,7 @@ form label {
   text-align: left;
   margin-left: 1.5rem;
   font-size: 0.75rem;
+  visibility: hidden;
   /* margin-top: 0.3rem; */
 }
 
