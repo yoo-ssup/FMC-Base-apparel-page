@@ -30,10 +30,11 @@ main {
   }
 
   h1 {
+    /* text-align: center; */
   text-transform: uppercase;
   color: hsl(0, 6%, 24%);
   margin-bottom: 1.5rem;
-  width: 20rem;
+  max-width: 20rem;
   letter-spacing: 1rem;
   line-height: 2.5rem;
   margin: 0 auto 1rem;
@@ -63,7 +64,7 @@ form {
 form input {
   font-family: inherit;
   font-size: 1rem;
-  margin: 2rem 0.5rem 0;
+  margin: 2rem 0.5rem 0 0;
   padding: 0.8rem 1rem;
   width: 100%;
   border: 1px solid hsl(0, 6%, 24%);
