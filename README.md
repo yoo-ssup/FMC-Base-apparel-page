@@ -1,3 +1,7 @@
+## Link for the live website:
+
+https://vishwasmj-base-apparel-page.netlify.app/
+
 # Frontend Mentor - Base Apparel coming soon page
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/desktop-preview.jpg)
